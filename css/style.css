@@ -1,0 +1,106 @@
+@import url(https://fonts.google.com/specimen/Overpass);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+body {
+  font-family: "Overpass", sans-serif;
+  font-size: 15px;
+  background: hsl(216, 12%, 8%);
+  color: hsl(0, 0%, 100%);
+}
+#thanks {
+  display: none;
+}
+
+.card {
+  background: hsl(213, 19%, 18%);
+  max-width: 350px;
+  
+  padding: 20px;
+  border-radius: 20px;
+}
+.card-thanks {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+#star-imge {
+  max-width: 100%;
+  max-width: 100%;
+  background-color: #2d394b;
+  border-radius: 50%;
+  padding: 13px;
+}
+ h3 {
+  font-size: 24px;
+  padding: 12% 0;
+  text-decoration: bold;
+}
+#section-informacion{
+  background:  #2d394b;
+ 
+  color: hsl(25, 97%, 53%);
+  height: 20%;
+  width: 50%;
+  margin-top: 20px;
+  padding: 5px;
+  text-align:center;
+  border-radius: 50px;
+  font-size: 12px;
+
+}
+p {
+  padding: 0px 0px 10px 0px;
+  color: hsl(216, 12%, 54%);
+  font-size: 14px;
+}
+.button-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 0px 10px 0px;
+}
+input[type="radio"] {
+  display: none;
+}
+.button-card label:hover {
+  background: hsl(25, 97%, 53%);
+}
+input[type="radio"] + label {
+  display: inline-block;
+  margin: 15px;
+  padding: 13px 15px;
+  cursor: pointer;
+  border-radius: 50%;
+  background: #2d394b;
+}
+
+input[type="radio"].calificacion:checked + label {
+  background-color: hsl(216, 12%, 54%);
+}
+
+.btn {
+  background: hsl(25, 97%, 53%);
+  color: white;
+  border: none;
+  width: 100%;
+  height: 40px;
+  border-radius: 50px;
+ 
+}
+.btn:hover {
+  background: white;
+  color: hsl(25, 97%, 53%);
+}
